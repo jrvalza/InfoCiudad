@@ -1,0 +1,6 @@
+certifi==2026.6.17
+folium==0.20.0
+geopy==2.4.1
+PyQt5==5.15.11
+pyqt5_sip==12.17.1
+Requests==2.34.2

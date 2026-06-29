@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Aplicación InfoCiudad</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionConectar_base_de_datos"/>
+    <addaction name="actionDesconectar_base_de_datos"/>
+    <addaction name="separator"/>
+    <addaction name="actionGuardar_los_cambios"/>
+    <addaction name="actionRechazar_los_cambios"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuPunto_Inter_s">
+    <property name="title">
+     <string>Punto Interés</string>
+    </property>
+    <addaction name="actionCrear"/>
+    <addaction name="actionBuscar"/>
+    <addaction name="actionGuardar"/>
+    <addaction name="separator"/>
+    <addaction name="actionVer_mapa"/>
+   </widget>
+   <widget class="QMenu" name="menuConsultar">
+    <property name="title">
+     <string>Consultar</string>
+    </property>
+    <addaction name="actionMostrar_informaci_n_Meteorol_gica"/>
+    <addaction name="actionMostrar_estaciones_ValenBici"/>
+    <addaction name="actionMostrar_Parkings"/>
+    <addaction name="actionMostrar_monumentos_en_area"/>
+    <addaction name="actionMostrar_monumentos_en_ruta"/>
+    <addaction name="actionMostrar_paradas_EMT"/>
+    <addaction name="actionMostrar_estaciones_metro"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuPunto_Inter_s"/>
+   <addaction name="menuConsultar"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionConectar_base_de_datos">
+   <property name="text">
+    <string>Conectar base de datos</string>
+   </property>
+  </action>
+  <action name="actionDesconectar_base_de_datos">
+   <property name="text">
+    <string>Desconectar base de datos</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionCrear">
+   <property name="text">
+    <string>Crear</string>
+   </property>
+  </action>
+  <action name="actionBuscar">
+   <property name="text">
+    <string>Buscar</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </action>
+  <action name="actionMostrar_estaciones_ValenBici">
+   <property name="text">
+    <string>Mostrar estaciones ValenBici</string>
+   </property>
+  </action>
+  <action name="actionMostrar_Parkings">
+   <property name="text">
+    <string>Mostrar parkings</string>
+   </property>
+  </action>
+  <action name="actionMostrar_monumentos_en_area">
+   <property name="text">
+    <string>Mostrar monumentos en área</string>
+   </property>
+  </action>
+  <action name="actionVer_mapa">
+   <property name="text">
+    <string>Ver mapa</string>
+   </property>
+  </action>
+  <action name="actionGuardar_los_cambios">
+   <property name="text">
+    <string>Guardar los cambios</string>
+   </property>
+  </action>
+  <action name="actionRechazar_los_cambios">
+   <property name="text">
+    <string>Rechazar los cambios</string>
+   </property>
+  </action>
+  <action name="actionMostrar_monumentos_en_ruta">
+   <property name="text">
+    <string>Mostrar monumentos en ruta</string>
+   </property>
+  </action>
+  <action name="actionMostrar_paradas_EMT">
+   <property name="text">
+    <string>Mostrar paradas EMT</string>
+   </property>
+  </action>
+  <action name="actionMostrar_estaciones_metro">
+   <property name="text">
+    <string>Mostrar estaciones metro</string>
+   </property>
+  </action>
+  <action name="actionMostrar_informaci_n_Meteorol_gica">
+   <property name="text">
+    <string>Mostrar información Meteorológica</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionSalir</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
