@@ -2,13 +2,6 @@
 
 **InfoCiudad** es una aplicación de escritorio desarrollada en **Python** que permite consultar información geográfica y datos en tiempo real de la ciudad de Valencia. La aplicación se conecta a una base de datos local **SQLite** con información sobre monumentos turísticos, parkings, estaciones de Valenbisi, paradas de la EMT y MetroValencia, y combina esta información con los servicios web en tiempo real del **Ayuntamiento de Valencia** para mostrar datos actualizados, junto con mapas interactivos y marcadores de posición.
 
-Actualmente la aplicación tiene implementadas las siguientes funcionalidades:
-
-- 🌤️ Consulta de datos de **estaciones meteorológicas** dentro de un área definida por el usuario alrededor de un punto de interés.
-- 🚲 **Consulta de estaciones Valenbisi** con bicicletas y plazas disponibles dentro de un área definida por el usuario alrededor de un punto de interés.
-
-
-
 ![Python](https://img.shields.io/badge/Python-3.9.x-3776AB?logo=python&logoColor=white)
 ![PyQt](https://img.shields.io/badge/PyQt5-GUI-41CD52?logo=qt&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-Database-07405E?logo=sqlite&logoColor=white)
