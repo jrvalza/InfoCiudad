@@ -5,7 +5,6 @@ class DaoValenBici(DataAccessObject):
     def __init__(self, connection, idClase):
         super().__init__(connection, idClase)
 
-
     def buscar_punto_interes_area(self, latitud0, longitud0, latitud1, longitud1):
 
         sql = "SELECT identificador, nombre, latitud, longitud " \
@@ -20,8 +19,5 @@ class DaoValenBici(DataAccessObject):
         print('DAO: ',len(lista))
         # =========PRUEBA===========
 
-
         return lista
-
-
 

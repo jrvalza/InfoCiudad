@@ -32,13 +32,10 @@ class DataAccessLayer():
         clave = self.__buscar_clase("Punto interés")
         self.__daoPuntoInteres = DaoPuntoInteres(self.__db_connection, clave)
 
-
     # =================================================DAO VALENBICI=================================================
     def __crear_DaoValenBici(self):
         clave = self.__buscar_clase("Estación ValenBici")
         self.__daoValenbici = DaoValenBici(self.__db_connection, clave)
-
-
 
     def db_connect(self, nameDb):
         try:
@@ -47,8 +44,6 @@ class DataAccessLayer():
             return True
         except Exception:
             return False
-
-
 
     def db_close(self):
         if not self.__db_connection == None:
@@ -132,10 +127,6 @@ class DataAccessLayer():
         for identificador, descripcion, latitud, longitud in consulta:
             resultado.append(PuntoInformaciónTiempo(identificador, descripcion, "una_etiqueta", "red", coordenada=Coordenada(latitud, longitud)))
         return resultado # Se devuelve el resultado como una lista
-
-
-
-
 
     # =================================================VALENBICI=================================================
     def buscarPuntosValenBiciEnArea(self, latitud0, longitud0, latitud1, longitud1):

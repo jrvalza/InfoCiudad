@@ -6,7 +6,6 @@ class ApiServicioWeb():
         self.__apiweathermap = '75810bd0b2b5a73aa675b29707a800e7'
         self.__valenbisi_url = f"https://geoportal.valencia.es/server/rest/services/OPENDATA/Trafico/MapServer/228/query"
 
-
     # =================================================METEREOLOGIA=================================================
     def get_info_meteorologica(self,latitud, longitud):
         r = requests.get(f'https://api.openweathermap.org/data/2.5/weather?lat={latitud}&lon={longitud}&lang=es&appid={self.__apiweathermap}&units=metric')
@@ -14,7 +13,6 @@ class ApiServicioWeb():
         temperatura = respuesta["main"]["temp"]
         humedad = respuesta["main"]["humidity"]
         return temperatura, humedad
-
 
     # =================================================VALENBICI=================================================
 

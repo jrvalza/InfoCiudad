@@ -45,15 +45,9 @@ class SistemaInfoCiudad:
     def buscarElementosEnArea(self, latitud, longitud, latitud1, longitud1):
         return self.__dal.buscarPuntosInteresEnArea(latitud, longitud, latitud1, longitud1)
 
-
-
-
     #=================================================VALENBICI=================================================
     def buscarValenBiciEnArea(self, latitud, longitud, latitud1, longitud1):
         return self.__dal.buscarPuntosValenBiciEnArea(latitud, longitud, latitud1, longitud1)
-
-
-
 
     def guardar_punto_interes(self):
         return self.__dal.guardar_puntoInteres(self.puntoInteres)
@@ -72,6 +66,5 @@ class SistemaInfoCiudad:
 
     def discard_changes(self):
         return self.__dal.discard_changes()
-
 
 
