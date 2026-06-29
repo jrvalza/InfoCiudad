@@ -4,8 +4,10 @@
 
 Actualmente la aplicación tiene implementadas las siguientes funcionalidades:
 
-- 🌤️ **Información meteorológica**: consulta de datos de estaciones dentro de un área definida por el usuario alrededor de un punto de interés.
-- 🚲 **Estaciones Valenbisi**: consulta de las estaciones de Valenbisi con plazas libres y/o bicicletas disponibles dentro de un área definida por el usuario alrededor de un punto de interés.
+- 🌤️ Consulta de datos de **estaciones meteorológicas** dentro de un área definida por el usuario alrededor de un punto de interés.
+- 🚲 **Consulta de estaciones Valenbisi** con bicicletas y plazas disponibles dentro de un área definida por el usuario alrededor de un punto de interés.
+
+
 
 ![Python](https://img.shields.io/badge/Python-3.9.x-3776AB?logo=python&logoColor=white)
 ![PyQt](https://img.shields.io/badge/PyQt5-GUI-41CD52?logo=qt&logoColor=white)
@@ -32,13 +34,9 @@ Actualmente la aplicación tiene implementadas las siguientes funcionalidades:
 ## 🚀 Funcionalidades
 
 - 📍 **Gestión de base de datos** con operaciones de creación, búsqueda, modificación y borrado de puntos.
-
 - 🔎 **Geocodificación** de direcciones aproximadas a coordenadas.
-
 - 🌤️ Acceso a **información meteorológica** en un área definida por el usuario alrededor de un punto de interés.
-
 - 🚲 Acceso a **información de Valenbisi** en un área definida por el usuario (disponibilidad y plazas libres).
-
 - 🗺️ Visualización de información en formato de **tablas** y **mapas interactivos**.
 ---
 
@@ -97,7 +95,6 @@ InfoCiudad/
 ## 🧩 Datos y servicios web
 
 - **Base de datos** local
-
 - **API** de datos abiertos del Ayuntamiento de Valencia
 ---
 
