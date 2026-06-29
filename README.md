@@ -11,6 +11,7 @@
 ---
 
 ![Inicio app](misc/movie0.gif)
+
 ---
 
 ## 📑 Tabla de contenidos
