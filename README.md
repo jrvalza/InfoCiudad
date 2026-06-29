@@ -31,13 +31,13 @@ Actualmente la aplicación tiene implementadas las siguientes funcionalidades:
 
 ## 🚀 Funcionalidades
 
-- 📍 **Gestión de base de datos** con operaciones de creación, búsqueda, modificación y borrado de puntos de interés.
+- 📍 **Gestión de base de datos** con operaciones de creación, búsqueda, modificación y borrado de puntos.
 
 - 🔎 **Geocodificación** de direcciones aproximadas a coordenadas.
 
-- 🌤️ Acceso a **información meteorológica** en un área definida por el usuario alrededor de un punto de interés seleccionado.
+- 🌤️ Acceso a **información meteorológica** en un área definida por el usuario alrededor de un punto de interés.
 
-- 🚲 **Consulta de estaciones de Valenbisi** dentro de un área determinada, mostrando para cada una el número de bicicletas disponibles y las plazas libres.
+- 🚲 Acceso a **información de Valenbisi** en un área definida por el usuario (disponibilidad y plazas libres).
 
 - 🗺️ Visualización de información en formato de **tablas** y **mapas interactivos**.
 ---
